@@ -15,7 +15,7 @@ app.use(cors({
 
 // routes
 const bookRoutes = require('./src/books/book.route');
-const orderRoutes = require("./src/orders/order.route")
+const orderRoutes = require("./src/orders/order.route") 
 const userRoutes =  require("./src/users/user.route")
 const adminRoutes = require("./src/stats/admin.stats")
 
